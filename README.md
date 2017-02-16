@@ -19,6 +19,7 @@ chmod +x setup.sh
 ./setup.sh</code></pre>
 
 PYCASTER's code is really simple and will run on almost any distro.
+Please note that if you have already installed youtube-dl on your Pi PYCASTER will delete it and install the latest version from the official repo.
 
 <b>WHAT TO EXPECT TO BE INSTALLED...</b>
 
