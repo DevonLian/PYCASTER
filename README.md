@@ -83,7 +83,7 @@ Create a message linked to that button :
 2). Edit server.js
 
 Create a function that is called when your button sent the user input
-<pre><code>socket.on\(\'url\', function\(url_read\) \{
+<pre><code>socket.on\('url', function\(url_read\) \{
       	socket\.url = url\_read;
 	exec\("omxplayer  \-o hdmi $\(youtube\-dl \-g \-f mp4 \'" \+ socket\.url \+ "\') &"\);
 	\}\);
