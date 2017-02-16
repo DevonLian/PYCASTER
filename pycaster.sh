@@ -12,7 +12,7 @@ stop)
   exec forever stop server.js
   ;;
 *)
-  echo "Usage: /etc/init.d/picast {start|stop}"
+  echo "Usage: pycaster.sh {start|stop}"
   exit 1
   ;;
 esac
