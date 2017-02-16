@@ -51,7 +51,7 @@ wget https://raw.githubusercontent.com/DevonLian/PYCASTER/master/index.html
 wget https://raw.githubusercontent.com/DevonLian/PYCASTER/master/pycast.sh
 
 #Setting permissions
-sudo chmod 755 pycast.sh server.js index.html
+sudo chmod 755 pycaster.sh server.js index.html
 
 echo "INSTALLATION COMPLETE\n"
 sleep 1
