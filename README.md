@@ -77,5 +77,13 @@ Add a new button :
 Create a message linked to that button :
 <pre><code>$\('\#BUTTON_ID'\).click\(function \(\) \{
 		var url = prompt\('Url to Stream :'\);  //Sample Code
-		socket.emit\('url', url\);              //Display a prompt and sends it to the server
+		socket.emit\('url', url\);              //Ask for a prompt and sends its results to the server
     \}\)</pre></code>
+    
+2). Edit server.js
+
+Create a function that is called when your button sent the user input
+<pre><code>socket.on\(\'url\', function\(url_read\) \{
+      	socket\.url = url\_read;
+	exec\("omxplayer  \-o hdmi $\(youtube\-dl \-g \-f mp4 \'" \+ socket\.url \+ "\') &"\);
+	\}\);
