@@ -88,3 +88,14 @@ Create a function that is called when your button sent the user input, and put i
 	exec\("omxplayer  \-o hdmi $\(youtube\-dl \-g \-f mp4 '" \+ socket\.url \+ "') &"\);
 	\}\);</pre></code>
 	
+# About
+ It relies upon Node JS to create a lightweight server on the PI. You connect to the Pi, the server-side JavaScripts delivers a simple 
+I had a Pi, I had a TV, I had a PC. And I was too lazy too get up and plug my pc to the TV through HDMI.
+So I plugged the Pi to the TV, and started looking for a screen casting software.
+
+I stumbled upon <a href="https://github.com/lanceseidman/PiCAST">Lance Seidman's PiCast</a> but had issues with the install and its use of livestream. So I first customized a bit PiCast Code, and I finally ended doing major changes. However, the install script and the general conception is the same. So, props to him !
+
+That's how PYCASTER is born.
+
+<b> How does it works ?</b>
+It relies upon Node JS to create a lightweight server on the PI. You connect to the Pi, the server-side JavaScripts delivers a simple 
