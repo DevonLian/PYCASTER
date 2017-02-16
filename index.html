@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>PYCASTER</title>
+    </head>
+ 
+    <body>
+        <h1>Welcome to your PYCASTER !</h1>
+
+	<p><input type="button" value="Stream Youtube" id="YT" /></p>	
+	<p><input type="button" value="Stream non-Youtube" id="NYT" /></p>
+
+	<p><input type="button" value="Kill" id="kill_omx" /></p>
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+	    
+		var socket = io.connect();
+
+
+		$('#YT').click(function () {
+		var url = prompt('Url to Stream :');
+		socket.emit('url', url);
+		})
+
+		$('#NYT').click(function () {
+                var url_nyt = prompt('Url to Stream :');
+                socket.emit('url_nyt', url_nyt);
+                })
+
+
+		$('#kill_omx').click(function () {
+                socket.emit('kill', 'kill');
+                }) 
+		
+
+
+        </script>
+    </body>
+</html>
+
