@@ -72,4 +72,10 @@ More to come !
 PYCASTER build is pretty simple, here's how to add new commands :
 1). Edit index.html : 
 Add a new button : 
-<pre><code>\<p\>\<input type="button" value="Stream non-Youtube" id="NYT" />\</p\></pre></code>
+<pre><code>\<p\>\<input type="button" value="BUTTON_NAME" id="BUTTON_ID" />\</p\></pre></code>
+
+Create a message linked to that button :
+<pre><code>$\('\#BUTTON_ID'\).click\(function \(\) \{
+		var url = prompt\(\'Url to Stream :\'\);  //Sample Code
+		socket.emit\(\'url\', url\);              //Display a prompt and sends it to the server
+    \}\)</pre></code>
