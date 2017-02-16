@@ -1,4 +1,4 @@
-# PYCASTER : An Open Source chromcast alternative !
+# PYCASTER : An Open Source Chromecast alternative !
 
 PYCASTER is a casting application for your Raspberry Pi. It creates an HTTP server on your Pi that will stream videos for you and output it on an external monitor. Plug your Pi to your TV/Screen, connect to your Pi through your browser, and stream !
 
@@ -76,6 +76,6 @@ Add a new button :
 
 Create a message linked to that button :
 <pre><code>$\('\#BUTTON_ID'\).click\(function \(\) \{
-		var url = prompt\(\'Url to Stream :\'\);  //Sample Code
+		var url = prompt\('Url to Stream :'\);  //Sample Code
 		socket.emit\('url', url\);              //Display a prompt and sends it to the server
     \}\)</pre></code>
