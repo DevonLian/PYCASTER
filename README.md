@@ -66,6 +66,8 @@ To bypass unsupported youtube-dl hint, you'll need to find the direct stream URL
 Here's how to do it :
 <a href="https://gist.github.com/flyswatter/7357098">Isolate Stream Url through Chromium/Chrome</a>
 
+If the video doesnt start within 10 seconds, it's probably because it is'nt supported by youtube-dl. Try to launch youtube-dl directly on the url you're trying to stream to see debugging information (youtube-dl $url)
+
 More to come !
 
 <b>I WANT MORE COMMANDS!</b>
