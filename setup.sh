@@ -48,7 +48,7 @@ cd PYCASTER
 sleep 1
 wget https://raw.githubusercontent.com/DevonLian/PYCASTER/master/server.js
 wget https://raw.githubusercontent.com/DevonLian/PYCASTER/master/index.html
-wget https://raw.githubusercontent.com/DevonLian/PYCASTER/master/pycast.sh
+wget https://raw.githubusercontent.com/DevonLian/PYCASTER/master/pycaster.sh
 
 #Setting permissions
 sudo chmod 755 pycaster.sh server.js index.html
