@@ -77,5 +77,5 @@ Add a new button :
 Create a message linked to that button :
 <pre><code>$\('\#BUTTON_ID'\).click\(function \(\) \{
 		var url = prompt\(\'Url to Stream :\'\);  //Sample Code
-		socket.emit\(\'url\', url\);              //Display a prompt and sends it to the server
+		socket.emit\('url', url\);              //Display a prompt and sends it to the server
     \}\)</pre></code>
