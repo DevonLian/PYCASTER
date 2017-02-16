@@ -60,7 +60,7 @@ Click on <blockquote>"Kill"</blockquote>
 Stream any Youtube-dl supported website : 
 Click on <blockquote>"Stream non-youtube"</blockquote> and Copy/Paste the video URL.
 
-<b> Tip : <b>
+<b> Tip : </b>
 To bypass unsupported youtube-dl hint, you'll need to find the direct stream URL, and pass it to PYCASTER. 
 Here's how to do it :
 <a href="https://gist.github.com/flyswatter/7357098">Isolate Stream Url through Chromium/Chrome</a>
