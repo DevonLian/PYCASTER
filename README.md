@@ -44,7 +44,7 @@ OR
 
 <pre><code>forever</code></pre> ensures that your script runs continuously
 
-<b> STREAMING </b>
+# STREAMING
 
 Everything can be done in a web browser:
 
@@ -52,15 +52,15 @@ Connect to your Pi in your Web Browser using its ip :
 <blockquote>http://pi-ip:8080/</blockquote>
 
 Stream YouTube Video: 
-Just click on "Stream Youtube" and Copy/Paste the video URL
+Just click on <blockquote>"Stream Youtube"</blockquote> and Copy/Paste the video URL
 
 Close currently played video : 
-Click on "Kill"
+Click on <blockquote>"Kill"</blockquote>
 
 Stream any Youtube-dl supported website : 
-Click on "Stream non-youtube" and Copy/Paste the video URL.
+Click on <blockquote>"Stream non-youtube"</blockquote> and Copy/Paste the video URL.
 
-Tip : 
+<b> Tip : <b>
 To bypass unsupported youtube-dl hint, you'll need to find the direct stream URL, and pass it to PYCASTER. 
 Here's how to do it :
 <a href="https://gist.github.com/flyswatter/7357098">Isolate Stream Url through Chromium/Chrome</a>
