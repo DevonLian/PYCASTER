@@ -6,7 +6,13 @@ sudo apt-get update
 sudo apt-get upgrade
 
 echo "Installing requirements... \n"
-sudo apt-get install python-dev python-pip nodejs npm youtube-dl lame mpg321 mplayer omxplayer git -y
+sudo apt-get install python-dev python-pip nodejs npm lame mpg321 mplayer omxplayer git -y
+
+echo "Updating youtube-dl"
+sudo apt-get remove youtube-dl -y
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+youtube-dl -U
 
 sleep 2
 echo "I'm going to install H264 Support now, this WILL take some time!!!"
