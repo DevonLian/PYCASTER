@@ -103,3 +103,9 @@ That's how PYCASTER is born.
 <b> How does it works ?</b>
 It relies upon Node JS to create a lightweight server on the PI. You connect to the Pi, the server-side JavaScripts delivers a simple webpage (index.html). The communication is done in real time thanks to the socket.io library.
 Your browser connects to the Pi, you send the URL you want to stream, and the Pi streams it for you through omxplayer and youtube-dl.
+
+# Contact
+Reddit : reddit.com/u/DevonLian
+Twitter : @devon_lian
+
+Feel free to ping me !
