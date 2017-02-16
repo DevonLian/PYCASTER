@@ -72,4 +72,4 @@ More to come !
 PYCASTER build is pretty simple, here's how to add new commands :
 1). Edit index.html : 
 Add a new button : 
-<pre><code><p><input type="button" value="Stream non-Youtube" id="NYT" /></p></pre></code>
+<pre><code>\<p\>\<input type="button" value="Stream non-Youtube" id="NYT" \/\></p></pre></code>
