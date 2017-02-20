@@ -22,7 +22,7 @@ sleep 3
 
 # H264 Process...
 cd /usr/src
-sudo rm -r x264 ffmpeg  #make a fresh install
+sudo rm -r x264/ ffmpeg/  #make a fresh install
 sudo git clone git://git.videolan.org/x264
 cd x264
 sudo ./configure --host=arm-unknown-linux-gnueabi --enable-static --disable-opencl
